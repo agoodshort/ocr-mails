@@ -56,6 +56,8 @@ end
         fprintf(fid,'%s\n',mailArr);
         fclose(fid);
         
-        disp("Mails from " + string(fileStruct(j).name) + " appended to " + outputFile)
+        [~,name,ext] = fileparts(picture);
+        
+        disp("Mails from " + name + ext + " appended to " + outputFile)
     end
 end
