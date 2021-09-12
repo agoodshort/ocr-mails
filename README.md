@@ -6,8 +6,9 @@ This function was used for a school project where I needed to send a survey to s
 This is not the most robust Optical Character Recognition function. If you plan to use it, review the code to make sure that it does what you want it to do.
 
 ## Usage
-`>> readmails("PATH_TO_FILE_OR_FOLDER");`
-`>> readmails("PATH_TO_FILE_OR_FOLDER","IMAGE_EXTENSION");`
+`>> readmails("PATH_TO_FILE_OR_FOLDER")`
+
+`>> readmails("PATH_TO_FILE_OR_FOLDER","IMAGE_EXTENSION")`
 
 IMAGE_EXTENSION can be used to specify a different image type (e.g. ".jpg")
 
