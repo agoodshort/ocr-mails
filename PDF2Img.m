@@ -1,5 +1,6 @@
 function folder2go = PDF2Img(fileLocation)
-% Initial script from https://www.mathworks.com/matlabcentral/answers/709623
+% Function inspired from https://www.mathworks.com/matlabcentral/answers/709623
+% Added functionality to create a folder and generate images in the folder
 
 import org.apache.pdfbox.*
 import java.io.*

@@ -1,4 +1,14 @@
-function readmails(file,imgExt)
+function outputFile = readmails(file,imgExt)
+% Generates a text file of email addresses contained in PDFs or PNG images.
+% If images are in a different format, use input EXTENSION (e.g. READMAILS("C:/myFolder",".jpg")
+%
+%   readmails(FILE_LOCATION) generates text file based on FILE_LOCATION
+%
+%   readmails(FOLDER_LOCATION) recurses READMAILS on every PNG files in FOLDER_LOCATION
+%
+%   readmails(FOLDER_LOCATION, EXTENSION) recurses READMAILS on every files with EXTENSION in FOLDER_LOCATION
+%
+% Adrien Biencourt 2021
 
 arguments
     file string
